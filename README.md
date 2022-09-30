@@ -13,7 +13,7 @@ Setup your MongoDB Atlas Cluster0 using AWS /N. Virginia(us-east-1). user as Tom
 In your Cluster0, connect and connect your application using python driver and version 3.11 or later.
 Add your connection string into application file("__init__.py"):
 
-``` python
+``` shell
 mongodb+srv://Tom:<password>@cluster0.f29fg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 ```
 

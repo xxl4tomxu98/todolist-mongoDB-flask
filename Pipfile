@@ -4,12 +4,18 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flask = "*"
-flask-pymongo = "*"
-python-dotenv = "*"
-dnspython = "*"
+flask = "==1.1.2"
+flask-pymongo = "==2.3.0"
+python-dotenv = "==0.15.0"
+dnspython = "==2.1.0"
+click = "==7.1.2"
+itsdangerous = "==1.1.0"
+jinja2 = "==2.11.3"
+markupsafe = "==1.1.1"
+werkzeug = "==1.0.1"
+pymongo = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.9"
+python_version = "3.10"
